@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@source "../site/index.html";
+
+/* Colour tokens switch with the system theme; utilities (bg-surface, text-soft, ...) read them. */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-soft: var(--soft);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --font-display: "Sora", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+    --bg: #f2f3f7;
+    --surface: #ffffff;
+    --ink: #12141c;
+    --soft: #5b6070;
+    --line: #dcdee7;
+    --accent: #3a4bff;
+    --accent-ink: #ffffff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c0e14;
+      --surface: #171a24;
+      --ink: #eceef5;
+      --soft: #9aa0b4;
+      --line: #262a38;
+      --accent: #7d8bff;
+      --accent-ink: #0c0e14;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 var(--font-display);
+    overflow-x: hidden;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
