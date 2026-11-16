@@ -37,8 +37,12 @@
       "url": "https://devbydima.github.io/whatchanged/",
       "name": "Whoa, What Changed? A cosy spot-the-difference memory game",
       "inLanguage": "en",
-      "isPartOf": { "@id": "https://devbydima.github.io/#website" },
-      "about": { "@id": "https://devbydima.github.io/whatchanged/#app" }
+      "isPartOf": {
+        "@id": "https://devbydima.github.io/#website"
+      },
+      "about": {
+        "@id": "https://devbydima.github.io/whatchanged/#app"
+      }
     },
     {
       "@type": "MobileApplication",
@@ -49,8 +53,124 @@
       "description": "Study a hand-drawn scene. It disappears. It comes back with one small change. Can you spot it?",
       "image": "https://devbydima.github.io/whatchanged/img/icon.png",
       "url": "https://play.google.com/store/apps/details?id=devbydima.whatchanged",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "author": { "@id": "https://devbydima.github.io/#maker" }
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@id": "https://devbydima.github.io/#maker"
+      },
+      "genre": "Puzzle",
+      "inLanguage": [
+        "en",
+        "nl",
+        "de",
+        "es",
+        "fr",
+        "pt",
+        "it",
+        "id"
+      ],
+      "installUrl": "https://play.google.com/store/apps/details?id=devbydima.whatchanged",
+      "screenshot": [
+        "https://devbydima.github.io/whatchanged/img/game.jpg",
+        "https://devbydima.github.io/whatchanged/img/campaign.jpg",
+        "https://devbydima.github.io/whatchanged/img/map.jpg",
+        "https://devbydima.github.io/whatchanged/img/daily.jpg",
+        "https://devbydima.github.io/whatchanged/img/modes.jpg",
+        "https://devbydima.github.io/whatchanged/img/stickers.jpg"
+      ],
+      "video": {
+        "@id": "https://devbydima.github.io/whatchanged/#trailer"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://devbydima.github.io/whatchanged/#trailer",
+      "name": "Whoa, What Changed? trailer",
+      "description": "Trailer for Whoa, What Changed?, a cosy spot-the-difference memory game for Android.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KbuVq59s0Uo/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KbuVq59s0Uo",
+      "contentUrl": "https://www.youtube.com/watch?v=KbuVq59s0Uo"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://devbydima.github.io/whatchanged/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Whoa, What Changed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A memory game for Android. A hand-drawn scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Whoa, What Changed? free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It is free to play and needs no account. Ads are kept to a minimum, and one optional purchase removes the full-screen ads."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many levels and themes are there?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "About 135 levels across seven themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can two people play together?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Switcheroo is a two-player mode on one phone: one player changes one thing and the other finds it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a daily challenge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. One hard puzzle a day, the same for everyone. Playing on consecutive days builds a streak that earns rewards, hints and streak freezes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if nothing changed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That can happen. Sometimes nothing changed, and in boss rounds there are two changes, so check carefully before you tap."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages does it support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "English, Nederlands, Deutsch, Español, Français, Português, Italiano and Bahasa Indonesia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What age is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whoa, What Changed? is intended for people aged 13 and over."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my progress stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On your own phone. There are no accounts. See the privacy policy for what Google and RevenueCat handle for ads, usage statistics and purchases."
+          }
+        }
+      ]
     }
   ]
 }
@@ -76,6 +196,7 @@
       <a class="hidden text-soft hover:text-ink sm:inline" href="#how">How it plays</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#screens">Screens</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#features">Features</a>
+      <a class="hidden text-soft hover:text-ink sm:inline" href="#faq">FAQ</a>
       <a class="rounded-[10px] bg-accent px-3.5 py-[7px] font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">Download</a>
     </nav>
   </div>
@@ -93,7 +214,7 @@
           </div>
         </div>
         <h1 class="text-[clamp(38px,6.4vw,64px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Study it. Blink. <em class="font-normal text-accent not-italic">Spot</em> what changed.</h1>
-        <p class="my-5 max-w-[46ch] text-lg text-soft">A hand-drawn scene disappears for a moment and comes back with one small change. Can you find it?</p>
+        <p class="my-5 max-w-[46ch] text-lg text-soft"><strong class="font-semibold text-ink">Whoa, What Changed?</strong> is a free memory game for Android. A hand-drawn scene disappears for a moment and comes back with one small change. Can you find it?</p>
         <div class="flex flex-wrap gap-3">
           <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">Download on Google Play &rarr;</a>
           <a class="inline-flex items-center gap-2 rounded-[14px] border border-line px-[22px] py-3.5 font-bold text-ink hover:border-accent" href="https://www.youtube.com/watch?v=KbuVq59s0Uo" rel="noopener">Watch the trailer</a>
@@ -164,6 +285,24 @@
         <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Calm music</h3><p class="text-[15px] text-soft">A generative tune for every place, with separate switches for music and sound.</p></div>
         <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Easy on the eyes and clock</h3><p class="text-[15px] text-soft">A &ldquo;More time&rdquo; mode and colour help, so everyone can play.</p></div>
         <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Eight languages</h3><p class="text-[15px] text-soft">English, Nederlands, Deutsch, Español, Français, Português, Italiano and Bahasa Indonesia.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12" id="faq">
+    <div class="mx-auto max-w-[1000px] px-5">
+      <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">FAQ</span>
+      <h2 class="mb-6 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Questions and answers</h2>
+      <div class="grid gap-3.5 md:grid-cols-2">
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">What is Whoa, What Changed?</h3><p class="text-[15px] text-soft">A memory game for Android. A hand-drawn scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Is Whoa, What Changed? free?</h3><p class="text-[15px] text-soft">Yes. It is free to play and needs no account. Ads are kept to a minimum, and one optional purchase removes the full-screen ads.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">How many levels and themes are there?</h3><p class="text-[15px] text-soft">About 135 levels across seven themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Can two people play together?</h3><p class="text-[15px] text-soft">Yes. Switcheroo is a two-player mode on one phone: one player changes one thing and the other finds it.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Is there a daily challenge?</h3><p class="text-[15px] text-soft">Yes. One hard puzzle a day, the same for everyone. Playing on consecutive days builds a streak that earns rewards, hints and streak freezes.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">What if nothing changed?</h3><p class="text-[15px] text-soft">That can happen. Sometimes nothing changed, and in boss rounds there are two changes, so check carefully before you tap.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Which languages does it support?</h3><p class="text-[15px] text-soft">English, Nederlands, Deutsch, Español, Français, Português, Italiano and Bahasa Indonesia.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">What age is it for?</h3><p class="text-[15px] text-soft">Whoa, What Changed? is intended for people aged 13 and over.</p></div>
+        <div class="rounded-[22px] border border-line bg-surface p-6"><h3 class="mb-1.5 text-lg font-extrabold tracking-[-0.02em]">Where is my progress stored?</h3><p class="text-[15px] text-soft">On your own phone. There are no accounts. See the privacy policy for what Google and RevenueCat handle for ads, usage statistics and purchases.</p></div>
       </div>
     </div>
   </section>

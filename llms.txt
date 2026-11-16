@@ -1,0 +1,26 @@
+# devbydima
+
+> devbydima is a solo developer making small games and apps for Android. The current release is Whoa, What Changed?, a free memory game where you spot what changed in a hand-drawn scene.
+
+## Whoa, What Changed?
+
+- [Game page](https://devbydima.github.io/whatchanged/): features, screenshots, FAQ and trailer
+- [Google Play](https://play.google.com/store/apps/details?id=devbydima.whatchanged): install the game on Android
+- [Trailer](https://www.youtube.com/watch?v=KbuVq59s0Uo): short trailer on YouTube
+- [Privacy policy](https://devbydima.github.io/whatchanged/privacy-policy/): what the app does and does not collect
+
+## About the game
+
+- Platform: Android. Free to play, no account needed. One optional purchase removes full-screen ads.
+- A round takes 10 to 20 seconds: memorize a hand-drawn scene, blink, then tap what changed. Sometimes nothing changed, and boss rounds have two changes.
+- About 135 levels across 7 themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs.
+- Modes: daily challenge, endless, Switcheroo (two players on one phone), hardcore and challenge levels.
+- Eight languages: English, Nederlands, Deutsch, Espanol, Francais, Portugues, Italiano and Bahasa Indonesia.
+- For ages 13 and over. Progress stays on the phone and there are no accounts.
+
+## Maker
+
+- [Home](https://devbydima.github.io/): apps and contact
+- [YouTube](https://www.youtube.com/@devbydima)
+- [Instagram](https://www.instagram.com/devbydima)
+- Email: devbydima@gmail.com

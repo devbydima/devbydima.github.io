@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @source "../index.html";
+@source "../404.html";
 @source "../whatchanged/index.html";
 @source "../whatchanged/privacy-policy/index.html";
 
