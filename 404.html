@@ -10,10 +10,12 @@
   <meta name="theme-color" content="#f2f3f7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0c0e14" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="/img/icon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
-  <link rel="stylesheet" href="/css/style.css?v=20261117">
+  <link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261120">
 </head>
 
 <body class="flex min-h-screen flex-col">
@@ -43,7 +45,7 @@
           <a class="inline-flex items-center gap-2 rounded-[14px] border border-line px-[22px] py-3.5 font-bold text-ink hover:border-accent" href="https://devbydima.github.io/whatchanged/">Play Whoa, What Changed?</a>
         </div>
         <a class="mx-auto mt-12 flex w-fit items-center gap-3.5 rounded-2xl border border-line bg-surface px-5 py-[14px] text-left hover:border-accent" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">
-          <img class="size-12 flex-none rounded-[22%]" src="/whatchanged/img/icon.png" alt="" width="48" height="48">
+          <img class="size-12 flex-none rounded-[22%]" src="/whatchanged/img/icon-96.webp" alt="" width="48" height="48">
           <div><b class="block font-bold">Whoa, What Changed?</b><span class="font-mono text-xs text-soft">free on Google Play</span></div>
         </a>
       </div>
@@ -52,7 +54,7 @@
 
   <footer class="border-t border-line pt-6 pb-10 text-[13px] text-soft">
     <div class="mx-auto max-w-[1000px] px-5 flex flex-wrap justify-between gap-3">
-      <span>&copy; 2026 devbydima</span>
+      <span>&copy; 2026 &middot; Made by <a class="inline-flex items-center gap-1.5 align-middle" href="https://devbydima.github.io/" aria-label="devbydima home"><picture><source srcset="/img/wordmark-dark.svg" media="(prefers-color-scheme: dark)"><img class="block h-4 w-auto" src="/img/wordmark-light.svg" alt="devbydima"></picture></a></span>
       <span>Apps for Android</span>
     </div>
   </footer>

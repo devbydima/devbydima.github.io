@@ -1,0 +1,22 @@
+{
+  "name": "Whoa, What Changed?",
+  "short_name": "What Changed?",
+  "description": "A cosy spot-the-difference memory game for Android.",
+  "start_url": "/whatchanged/",
+  "scope": "/whatchanged/",
+  "display": "browser",
+  "background_color": "#f2f3f7",
+  "theme_color": "#3a4bff",
+  "icons": [
+    {
+      "src": "/whatchanged/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/whatchanged/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

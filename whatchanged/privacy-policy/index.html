@@ -26,12 +26,38 @@
 <meta name="twitter:description" content="How Whoa, What Changed? handles your information. Progress stays on your phone and there are no accounts.">
 <meta name="twitter:image" content="https://devbydima.github.io/whatchanged/img/social.png">
 <meta name="twitter:image:alt" content="Whoa, What Changed? hand-drawn memory game for Android">
-<link rel="icon" href="../img/icon.png">
-<link rel="apple-touch-icon" href="../img/icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
-<link rel="stylesheet" href="../../css/style.css?v=20261117">
+<link rel="icon" href="../img/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preload" href="../../fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../css/style.css?v=20261120">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "devbydima",
+      "item": "https://devbydima.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Whoa, What Changed?",
+      "item": "https://devbydima.github.io/whatchanged/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Privacy policy",
+      "item": "https://devbydima.github.io/whatchanged/privacy-policy/"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
@@ -110,7 +136,7 @@
 
 <footer class="border-t border-line pt-6 pb-10 text-[13px] text-soft">
   <div class="mx-auto max-w-[1000px] px-5 flex flex-wrap justify-between gap-3">
-    <span>&copy; 2026 devbydima &middot; Made by <a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/">devbydima</a></span>
+    <span>&copy; 2026 &middot; Made by <a class="inline-flex items-center gap-1.5 align-middle" href="https://devbydima.github.io/" aria-label="devbydima home"><picture><source srcset="../../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)"><img class="block h-4 w-auto" src="../../img/wordmark-light.svg" alt="devbydima"></picture></a></span>
     <span><a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/whatchanged/">Game page</a> &middot; <a class="underline decoration-accent underline-offset-4" href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></span>
   </div>
 </footer>

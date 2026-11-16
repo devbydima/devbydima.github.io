@@ -4,6 +4,23 @@
 @source "../whatchanged/index.html";
 @source "../whatchanged/privacy-policy/index.html";
 
+/* Self-hosted fonts (latin subset), preloaded from each page. */
+@font-face {
+  font-family: "Sora";
+  src: url("../fonts/sora-latin.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-latin-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Colour tokens switch with the system theme; utilities (bg-surface, text-soft, ...) read them. */
 @theme inline {
   --color-bg: var(--bg);
