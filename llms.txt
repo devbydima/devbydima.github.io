@@ -15,7 +15,7 @@ Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play pa
 
 - Platform: Android. Free to play, works offline, no account needed. One optional purchase removes full-screen ads.
 - A round takes 10 to 20 seconds: memorize a hand-drawn scene, blink, then tap what changed. Sometimes nothing changed, and boss rounds have two changes.
-- About 135 levels across 7 themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs.
+- 139 levels across 7 themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs.
 - Single-player game: levels, daily challenge, endless mode, hardcore and challenge levels. Switcheroo is an optional extra mode for two players on one phone.
 - Eight languages: English, Nederlands, Deutsch, Espanol, Francais, Portugues, Italiano and Bahasa Indonesia.
 - For ages 13 and over. Progress stays on the phone and there are no accounts.
