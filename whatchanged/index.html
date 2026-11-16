@@ -19,8 +19,8 @@
 <meta property="og:description" content="A cosy spot-the-difference memory game. Study the scene, blink, spot what changed.">
 <meta property="og:image" content="https://devbydima.github.io/whatchanged/img/social.png">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="500">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Whoa, What Changed? hand-drawn memory game for Android">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Whoa, What Changed? by devbydima | Spot-the-difference memory game">
@@ -45,6 +45,12 @@
       },
       "breadcrumb": {
         "@id": "https://devbydima.github.io/whatchanged/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://devbydima.github.io/whatchanged/#primaryimage"
+      },
+      "image": {
+        "@id": "https://devbydima.github.io/whatchanged/#primaryimage"
       }
     },
     {
@@ -54,7 +60,10 @@
       "operatingSystem": "Android",
       "applicationCategory": "GameApplication",
       "description": "Study a hand-drawn scene. It disappears. It comes back with one small change. Can you spot it? Made by devbydima. Works offline.",
-      "image": "https://devbydima.github.io/whatchanged/img/icon.png",
+      "image": [
+        "https://devbydima.github.io/whatchanged/img/icon.png",
+        "https://devbydima.github.io/whatchanged/img/social.png"
+      ],
       "url": "https://play.google.com/store/apps/details?id=devbydima.whatchanged",
       "offers": {
         "@type": "Offer",
@@ -222,6 +231,14 @@
           "item": "https://devbydima.github.io/whatchanged/"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://devbydima.github.io/whatchanged/#primaryimage",
+      "url": "https://devbydima.github.io/whatchanged/img/social.png",
+      "width": 1200,
+      "height": 630,
+      "caption": "Whoa, What Changed? by devbydima: the game icon, the title and two screens from the game"
     }
   ]
 }
