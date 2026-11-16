@@ -4,78 +4,58 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Whoa, What Changed? Privacy Policy</title>
+<meta name="description" content="How Whoa, What Changed? handles your information: progress stays on your phone, no accounts, and ads, usage statistics and purchases are handled by Google and RevenueCat.">
+<meta name="author" content="devbydima">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://devbydima.github.io/whatchanged/privacy-policy/">
 <meta name="theme-color" content="#f2f3f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0c0e14" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="devbydima">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://devbydima.github.io/whatchanged/privacy-policy/">
+<meta property="og:title" content="Whoa, What Changed? Privacy Policy">
+<meta property="og:description" content="How Whoa, What Changed? handles your information. Progress stays on your phone and there are no accounts.">
+<meta property="og:image" content="https://devbydima.github.io/whatchanged/img/social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="Whoa, What Changed? hand-drawn memory game for Android">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Whoa, What Changed? Privacy Policy">
+<meta name="twitter:description" content="How Whoa, What Changed? handles your information. Progress stays on your phone and there are no accounts.">
+<meta name="twitter:image" content="https://devbydima.github.io/whatchanged/img/social.png">
+<meta name="twitter:image:alt" content="Whoa, What Changed? hand-drawn memory game for Android">
 <link rel="icon" href="../img/icon.png">
+<link rel="apple-touch-icon" href="../img/icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #f2f3f7; --surface: #fff; --ink: #12141c; --soft: #5b6070; --line: #dcdee7; --accent: #3a4bff; --accent-ink: #fff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #0c0e14; --surface: #171a24; --ink: #eceef5; --soft: #9aa0b4; --line: #262a38; --accent: #7d8bff; --accent-ink: #0c0e14; }
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--ink); font: 16px/1.6 "Sora", system-ui, -apple-system, "Segoe UI", sans-serif; }
-  a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
-  :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
-  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
-  .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 22px; padding-bottom: 22px; }
-  .top img { display: block; height: 30px; width: auto; }
-  .top nav { display: flex; align-items: center; gap: 20px; font-size: 14px; font-weight: 600; }
-  .top nav a { color: var(--soft); text-decoration: none; }
-  .top nav a:hover { color: var(--ink); }
-  .top nav a.dl { background: var(--accent); color: var(--accent-ink); padding: 7px 14px; border-radius: 10px; font-weight: 700; }
-  .top nav a.dl:hover { color: var(--accent-ink); filter: brightness(1.1); }
-  main { max-width: 1000px; margin: 0 auto; padding: 24px 20px 64px; }
-  .doc { max-width: 880px; margin: 0 auto; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: clamp(22px, 5vw, 44px); }
-  .eyebrow { display: block; margin-bottom: 10px; font: 500 12px/1.4 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
-  h1 { margin: 0 0 6px; font-size: clamp(28px, 5vw, 40px); font-weight: 800; line-height: 1.08; letter-spacing: -.03em; text-wrap: balance; }
-  .doc { counter-reset: sec; }
-  h2 { counter-increment: sec; margin: 40px 0 8px; padding-top: 28px; border-top: 1px solid var(--line); font-size: 20px; font-weight: 800; line-height: 1.25; letter-spacing: -.02em; }
-  h2::before { content: counter(sec, decimal-leading-zero); display: block; margin-bottom: 8px; font: 500 12px/1 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .08em; color: var(--accent); }
-  p, li { margin: 8px 0; color: var(--soft); }
-  strong, em { color: var(--ink); }
-  li::marker { color: var(--accent); }
-  ul { padding-left: 22px; }
-  .meta { color: var(--soft); font: 500 12px/1.4 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; margin: 0 0 24px; }
-  .meta + p { margin: 0 0 8px; padding: 16px 18px; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px 14px 14px 6px; font-size: 17px; color: var(--ink); background: var(--bg); }
-  a { text-decoration-thickness: 1.5px; }
-  a:hover { color: var(--accent); }
-  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 13px; color: var(--soft); }
-  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
-  @media (max-width: 520px) { .top nav a:not(.dl) { display: none; } }
-</style>
+<link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
+<header>
+  <div class="mx-auto max-w-[1000px] px-5 flex items-center justify-between gap-4 py-[22px]">
     <a href="https://devbydima.github.io/" aria-label="devbydima home">
       <picture>
         <source srcset="../../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)">
-        <img src="../../img/wordmark-light.svg" alt="devbydima">
+        <img class="block h-[30px] w-auto" src="../../img/wordmark-light.svg" alt="devbydima">
       </picture>
     </a>
-    <nav aria-label="Main">
-      <a href="../">Whoa, What Changed?</a>
-      <a class="dl" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">Download</a>
+    <nav class="flex items-center gap-5 text-sm font-semibold" aria-label="Main">
+      <a class="hidden text-soft hover:text-ink sm:inline" href="../">Whoa, What Changed?</a>
+      <a class="rounded-[10px] bg-accent px-3.5 py-[7px] font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">Download</a>
     </nav>
   </div>
 </header>
 
-<main>
-<div class="doc">
-  <span class="eyebrow">Privacy policy</span>
-  <h1>Whoa, What Changed?</h1>
-  <p class="meta">Last updated: 15 November 2026</p>
+<main class="mx-auto max-w-[1000px] px-5 pt-6 pb-16">
+  <div class="mx-auto max-w-[880px] rounded-[22px] border border-line bg-surface p-[clamp(22px,5vw,44px)] [counter-reset:sec] [&_p]:my-2 [&_p]:text-soft [&_li]:my-2 [&_li]:text-soft [&_li]:marker:text-accent [&_ul]:list-disc [&_ul]:pl-[22px] [&_strong]:text-ink [&_em]:text-ink [&_a]:underline [&_a]:decoration-accent [&_a]:decoration-[1.5px] [&_a]:underline-offset-4 [&_a:hover]:text-accent [&_h2]:mt-10 [&_h2]:mb-2 [&_h2]:border-t [&_h2]:border-line [&_h2]:pt-7 [&_h2]:text-xl [&_h2]:leading-tight [&_h2]:font-extrabold [&_h2]:tracking-[-0.02em] [&_h2]:[counter-increment:sec] [&_h2]:before:mb-2 [&_h2]:before:block [&_h2]:before:font-mono [&_h2]:before:text-xs [&_h2]:before:tracking-[0.08em] [&_h2]:before:text-accent [&_h2]:before:content-[counter(sec,decimal-leading-zero)]">
+    <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Privacy policy</span>
+    <h1 class="mb-1.5 text-[clamp(28px,5vw,40px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Whoa, What Changed?</h1>
+  <p class="mb-6 font-mono text-xs text-soft">Last updated: 15 November 2026</p>
 
-  <p>Whoa, What Changed? is a memory game for Android in which you look at a picture and spot what changed. This page explains what information the app uses and why. The short version: the game keeps your progress on your own phone, we have no accounts, and the information collected through the app goes to Google (for ads and anonymous usage statistics) and to RevenueCat (to handle purchases).</p>
+  <p class="mb-2 rounded-r-[14px] rounded-l-[6px] border border-line border-l-4 border-l-accent bg-bg px-[18px] py-4 text-[17px] !text-ink">Whoa, What Changed? is a memory game for Android in which you look at a picture and spot what changed. This page explains what information the app uses and why. The short version: the game keeps your progress on your own phone, we have no accounts, and the information collected through the app goes to Google (for ads and anonymous usage statistics) and to RevenueCat (to handle purchases).</p>
 
   <h2>Who we are</h2>
   <p>The app is made by <strong>devbydima</strong>. You can reach us at <strong><a href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></strong>.</p>
@@ -94,7 +74,7 @@
   <p>The share buttons open your phone&rsquo;s share menu. Sharing only happens when you tap a button and pick an app yourself. A picture you share is kept briefly in the app&rsquo;s temporary cache on your phone. Nothing is sent to us.</p>
 
   <h2>Ads</h2>
-  <p>The app shows ads through <strong>Google AdMob</strong>: videos you choose to watch in return for a reward (such as a hint or an extra try), and now and then a full-screen ad between levels. To show and measure ads, Google may collect and use information from your device, such as your advertising ID, IP address, approximate location, device and app information, and how you interact with ads. We do not receive this information. How Google handles it is described at <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a> and in <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>.</p>
+  <p>The app shows ads through <strong>Google AdMob</strong>: videos in the game that give you a reward (such as a hint or an extra try), and now and then a full-screen ad between levels. We keep ads to a minimum. To show and measure ads, Google may collect and use information from your device, such as your advertising ID, IP address, approximate location, device and app information, and how you interact with ads. We do not receive this information. How Google handles it is described at <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a> and in <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>.</p>
   <p>If you are in the European Economic Area, the United Kingdom or another region that requires it, the app asks for your consent before showing personalised ads, using Google&rsquo;s consent form. You can change your choice at any time under <em>Settings &rarr; Privacy options</em>. On Android you can also reset your advertising ID or opt out of ad personalisation in your phone&rsquo;s settings (<em>Settings &rarr; Google &rarr; Ads</em>).</p>
 
   <h2>Usage statistics</h2>
@@ -125,14 +105,13 @@
 
   <h2>Changes to this policy</h2>
   <p>If we change this policy, we will update this page and the date at the top. Material changes will also be mentioned in the app&rsquo;s update notes.</p>
-
-</div>
+  </div>
 </main>
 
-<footer>
-  <div class="wrap">
-    <span>&copy; 2026 devbydima &middot; Made by <a href="https://devbydima.github.io/">devbydima</a></span>
-    <span><a href="https://devbydima.github.io/whatchanged/">Game page</a> &middot; <a href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></span>
+<footer class="border-t border-line pt-6 pb-10 text-[13px] text-soft">
+  <div class="mx-auto max-w-[1000px] px-5 flex flex-wrap justify-between gap-3">
+    <span>&copy; 2026 devbydima &middot; Made by <a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/">devbydima</a></span>
+    <span><a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/whatchanged/">Game page</a> &middot; <a class="underline decoration-accent underline-offset-4" href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></span>
   </div>
 </footer>
 </body>
