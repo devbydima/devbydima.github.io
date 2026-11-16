@@ -1,8 +1,10 @@
 # devbydima
 
-> devbydima is a solo developer making small games and apps for Android. The current release is Whoa, What Changed?, a free, single-player, offline-capable memory game where you spot what changed in a hand-drawn scene.
+> devbydima is a solo developer making small games and apps for Android. The current release is Whoa, What Changed? (package devbydima.whatchanged), a free, single-player, offline-capable memory game where you spot what changed in a hand-drawn scene.
 
-## Whoa, What Changed?
+## Whoa, What Changed? by devbydima
+
+Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play package name is `devbydima.whatchanged`. It is an independent game by devbydima and is not related to other apps or games with a similar name, such as "What Changed".
 
 - [Game page](https://devbydima.github.io/whatchanged/): features, screenshots, FAQ and trailer
 - [Google Play](https://play.google.com/store/apps/details?id=devbydima.whatchanged): install the game on Android
