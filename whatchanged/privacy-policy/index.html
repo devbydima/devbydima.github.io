@@ -6,22 +6,73 @@
 <title>Whoa, What Changed? Privacy Policy</title>
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://devbydima.github.io/whatchanged/privacy-policy/">
+<meta name="theme-color" content="#f2f3f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0e14" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-  :root { color-scheme: light dark; --bg: #fbf5ea; --ink: #2a1a33; --soft: #6b5a73; --accent: #ff9f5a; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #241830; --ink: #fbf5ea; --soft: #b9a9c4; } }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 ui-rounded, "SF Pro Rounded", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 20px 64px; }
-  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 4px; }
-  h2 { font-size: 20px; margin: 32px 0 6px; }
-  p, li { margin: 8px 0; }
-  .meta { color: var(--soft); font-size: 15px; }
+  :root {
+    color-scheme: light dark;
+    --bg: #f2f3f7; --surface: #fff; --ink: #12141c; --soft: #5b6070; --line: #dcdee7; --accent: #3a4bff; --accent-ink: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0c0e14; --surface: #171a24; --ink: #eceef5; --soft: #9aa0b4; --line: #262a38; --accent: #7d8bff; --accent-ink: #0c0e14; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--ink); font: 16px/1.6 "Sora", system-ui, -apple-system, "Segoe UI", sans-serif; }
   a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
-  .note { border-left: 4px solid var(--accent); padding: 4px 14px; background: rgba(255,159,90,.12); border-radius: 6px; }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 22px; padding-bottom: 22px; }
+  .top img { display: block; height: 30px; width: auto; }
+  .top nav { display: flex; align-items: center; gap: 20px; font-size: 14px; font-weight: 600; }
+  .top nav a { color: var(--soft); text-decoration: none; }
+  .top nav a:hover { color: var(--ink); }
+  .top nav a.dl { background: var(--accent); color: var(--accent-ink); padding: 7px 14px; border-radius: 10px; font-weight: 700; }
+  .top nav a.dl:hover { color: var(--accent-ink); filter: brightness(1.1); }
+  main { max-width: 1000px; margin: 0 auto; padding: 24px 20px 64px; }
+  .doc { max-width: 880px; margin: 0 auto; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; padding: clamp(22px, 5vw, 44px); }
+  .eyebrow { display: block; margin-bottom: 10px; font: 500 12px/1.4 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  h1 { margin: 0 0 6px; font-size: clamp(28px, 5vw, 40px); font-weight: 800; line-height: 1.08; letter-spacing: -.03em; text-wrap: balance; }
+  .doc { counter-reset: sec; }
+  h2 { counter-increment: sec; margin: 40px 0 8px; padding-top: 28px; border-top: 1px solid var(--line); font-size: 20px; font-weight: 800; line-height: 1.25; letter-spacing: -.02em; }
+  h2::before { content: counter(sec, decimal-leading-zero); display: block; margin-bottom: 8px; font: 500 12px/1 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .08em; color: var(--accent); }
+  p, li { margin: 8px 0; color: var(--soft); }
+  strong, em { color: var(--ink); }
+  li::marker { color: var(--accent); }
+  ul { padding-left: 22px; }
+  .meta { color: var(--soft); font: 500 12px/1.4 "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace; margin: 0 0 24px; }
+  .meta + p { margin: 0 0 8px; padding: 16px 18px; border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px 14px 14px 6px; font-size: 17px; color: var(--ink); background: var(--bg); }
+  a { text-decoration-thickness: 1.5px; }
+  a:hover { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 13px; color: var(--soft); }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+  @media (max-width: 520px) { .top nav a:not(.dl) { display: none; } }
 </style>
 </head>
 <body>
+<header class="top">
+  <div class="wrap">
+    <a href="https://devbydima.github.io/" aria-label="devbydima home">
+      <picture>
+        <source srcset="../../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="../../img/wordmark-light.svg" alt="devbydima">
+      </picture>
+    </a>
+    <nav aria-label="Main">
+      <a href="../">Whoa, What Changed?</a>
+      <a class="dl" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged">Download</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-  <h1>Whoa, What Changed? &mdash; Privacy Policy</h1>
+<div class="doc">
+  <span class="eyebrow">Privacy policy</span>
+  <h1>Whoa, What Changed?</h1>
   <p class="meta">Last updated: 15 November 2026</p>
 
   <p>Whoa, What Changed? is a memory game for Android in which you look at a picture and spot what changed. This page explains what information the app uses and why. The short version: the game keeps your progress on your own phone, we have no accounts, and the information collected through the app goes to Google (for ads and anonymous usage statistics) and to RevenueCat (to handle purchases).</p>
@@ -75,6 +126,14 @@
   <h2>Changes to this policy</h2>
   <p>If we change this policy, we will update this page and the date at the top. Material changes will also be mentioned in the app&rsquo;s update notes.</p>
 
+</div>
 </main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 devbydima &middot; Made by <a href="https://devbydima.github.io/">devbydima</a></span>
+    <span><a href="https://devbydima.github.io/whatchanged/">Game page</a> &middot; <a href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></span>
+  </div>
+</footer>
 </body>
 </html>
