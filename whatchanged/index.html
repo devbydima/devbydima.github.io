@@ -207,10 +207,10 @@
 <link rel="icon" href="img/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preload" as="image" type="image/webp" href="img/game-320.webp" imagesrcset="img/game-320.webp 320w, img/game.webp 585w" imagesizes="(min-width: 768px) 210px, 45vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/webp" href="img/game-320.webp" imagesrcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" imagesizes="(min-width: 768px) 210px, 45vw" fetchpriority="high">
 <link rel="preload" href="../fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../css/style.css?v=20261120">
+<link rel="stylesheet" href="../css/style.css?v=20261121">
 </head>
 <body>
 
@@ -219,7 +219,7 @@
     <a href="https://devbydima.github.io/" aria-label="devbydima home">
       <picture>
         <source srcset="../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)">
-        <img class="block h-[30px] w-auto" src="../img/wordmark-light.svg" alt="devbydima">
+        <img class="block h-[30px] w-auto" src="../img/wordmark-light.svg" alt="devbydima" width="128" height="30">
       </picture>
     </a>
     <nav class="flex items-center gap-5 text-sm font-semibold" aria-label="Main">
@@ -254,8 +254,8 @@
         </ul>
       </div>
       <div class="grid max-w-[420px] grid-cols-2 gap-3.5">
-        <img class="block h-auto w-full rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game.webp 585w" sizes="(min-width: 768px) 210px, 45vw" fetchpriority="high" alt="Memorizing a toy room in the game" width="585" height="1266">
-        <img class="block h-auto w-full rounded-[18px] border border-line mt-7" src="img/home.webp" srcset="img/home-320.webp 320w, img/home.webp 585w" sizes="(min-width: 768px) 210px, 45vw" alt="The home screen of Whoa, What Changed?" width="585" height="1266">
+        <img class="block h-auto w-full rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="(min-width: 768px) 210px, 45vw" fetchpriority="high" alt="Memorizing a toy room in the game" width="585" height="1266">
+        <img class="block h-auto w-full rounded-[18px] border border-line mt-7" src="img/home.webp" srcset="img/home-320.webp 320w, img/home-400.webp 400w, img/home.webp 585w" sizes="(min-width: 768px) 210px, 45vw" alt="The home screen of Whoa, What Changed?" width="585" height="1266">
       </div>
     </div>
   </section>
@@ -279,12 +279,12 @@
       <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Screens</span>
       <h2 class="mb-2.5 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">See it in action</h2>
       <div class="-mx-0.5 mt-6 flex snap-x snap-proximity gap-3.5 overflow-x-auto px-0.5 pt-1 pb-3.5" tabindex="0" aria-label="Screenshots">
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game.webp 585w" sizes="215px" alt="A round of the game" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Memorize the scene</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/campaign.webp" srcset="img/campaign-320.webp 320w, img/campaign.webp 585w" sizes="215px" alt="All themes on one screen" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Seven themes</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/map.webp" srcset="img/map-320.webp 320w, img/map.webp 585w" sizes="215px" alt="The level map of the toy room" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Levels to unlock</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/daily.webp" srcset="img/daily-320.webp 320w, img/daily.webp 585w" sizes="215px" alt="The daily challenge" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A daily challenge</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/modes.webp" srcset="img/modes-320.webp 320w, img/modes.webp 585w" sizes="215px" alt="Game modes" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Endless and Switcheroo</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/stickers.webp" srcset="img/stickers-320.webp 320w, img/stickers.webp 585w" sizes="215px" alt="The sticker book" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A sticker book</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="215px" alt="A round of the game" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Memorize the scene</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/campaign.webp" srcset="img/campaign-320.webp 320w, img/campaign-400.webp 400w, img/campaign.webp 585w" sizes="215px" alt="All themes on one screen" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Seven themes</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/map.webp" srcset="img/map-320.webp 320w, img/map-400.webp 400w, img/map.webp 585w" sizes="215px" alt="The level map of the toy room" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Levels to unlock</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/daily.webp" srcset="img/daily-320.webp 320w, img/daily-400.webp 400w, img/daily.webp 585w" sizes="215px" alt="The daily challenge" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A daily challenge</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/modes.webp" srcset="img/modes-320.webp 320w, img/modes-400.webp 400w, img/modes.webp 585w" sizes="215px" alt="Game modes" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Endless and Switcheroo</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/stickers.webp" srcset="img/stickers-320.webp 320w, img/stickers-400.webp 400w, img/stickers.webp 585w" sizes="215px" alt="The sticker book" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A sticker book</figcaption></figure>
       </div>
     </div>
   </section>
@@ -361,7 +361,7 @@
 
 <footer class="mt-6 border-t border-line pt-6 pb-10 text-[13px] text-soft">
   <div class="mx-auto max-w-[1000px] px-5 flex flex-wrap justify-between gap-3">
-    <span>&copy; 2026 &middot; Made by <a class="inline-flex items-center gap-1.5 align-middle" href="https://devbydima.github.io/" aria-label="devbydima home"><picture><source srcset="../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)"><img class="block h-4 w-auto" src="../img/wordmark-light.svg" alt="devbydima"></picture></a></span>
+    <span>&copy; 2026 &middot; Made by <a class="inline-flex items-center gap-1.5 align-middle" href="https://devbydima.github.io/" aria-label="devbydima home"><picture><source srcset="../img/wordmark-dark.svg" media="(prefers-color-scheme: dark)"><img class="block h-4 w-auto" src="../img/wordmark-light.svg" alt="devbydima" width="68" height="16"></picture></a></span>
     <span><a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/whatchanged/privacy-policy/">Privacy policy</a> &middot; <a class="underline decoration-accent underline-offset-4" href="mailto:devbydima@gmail.com">devbydima@gmail.com</a></span>
   </div>
 </footer>
