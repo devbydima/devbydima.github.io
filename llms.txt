@@ -6,7 +6,8 @@
 
 Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play package name is `devbydima.whatchanged`. It is an independent game by devbydima and is not related to other apps or games with a similar name, such as "What Changed".
 
-- [Game page](https://devbydima.github.io/whatchanged/): features, screenshots, FAQ and trailer
+- [Game page](https://devbydima.github.io/whatchanged/): features, tips, screenshots, FAQ and trailer
+- [Play one room in your browser](https://devbydima.github.io/whatchanged/#play): a free demo room on the game page, no sign-up and nothing to install
 - [Google Play](https://play.google.com/store/apps/details?id=devbydima.whatchanged): install the game on Android
 - [Trailer](https://www.youtube.com/watch?v=KbuVq59s0Uo): short trailer on YouTube
 - [Privacy policy](https://devbydima.github.io/whatchanged/privacy-policy/): what the app does and does not collect
@@ -16,7 +17,7 @@ Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play pa
 - Platform: Android. Free to play, works offline, no account needed. One optional purchase removes full-screen ads.
 - A round takes 10 to 20 seconds: memorize a hand-drawn scene, blink, then tap what changed. Sometimes nothing changed, and boss rounds have two changes.
 - 139 levels across 7 themes: Kitchen, Forest, Space, Sea, Toy room, Circus and Dinosaurs.
-- Single-player game: levels, daily challenge, endless mode, hardcore and challenge levels. Switcheroo is an optional extra mode for two players on one phone.
+- Single-player game: levels, daily challenge, daily goals, Sprint (three quick rounds against the clock), endless mode, hardcore and challenge levels. Switcheroo is an optional extra mode for two players on one phone.
 - Eight languages: English, Nederlands, Deutsch, Espanol, Francais, Portugues, Italiano and Bahasa Indonesia.
 - For ages 13 and over. Progress stays on the phone and there are no accounts.
 
@@ -27,4 +28,5 @@ Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play pa
 - [YouTube](https://www.youtube.com/@devbydima)
 - [Instagram](https://www.instagram.com/devbydima)
 - [X](https://x.com/devbydima)
+- [TikTok](https://www.tiktok.com/@devbydima)
 - Email: devbydima@gmail.com

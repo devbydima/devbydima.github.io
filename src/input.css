@@ -76,3 +76,26 @@
     border-radius: 6px;
   }
 }
+
+/* Tips: each icon draws itself when its card scrolls into view (only without reduced motion; see the script on the game page). */
+.tips-anim .tip:not(.in) svg > * {
+  opacity: 0;
+}
+.tips-anim .tip.in svg path {
+  stroke-dasharray: 1;
+  animation: tip-draw 0.9s ease-out backwards;
+  animation-delay: calc(var(--i, 0) * 120ms);
+}
+.tips-anim .tip.in svg circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: tip-pop 0.55s cubic-bezier(0.3, 1.6, 0.6, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 120ms + 150ms);
+}
+@keyframes tip-draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes tip-pop {
+  from { opacity: 0; transform: scale(0.3); }
+}
