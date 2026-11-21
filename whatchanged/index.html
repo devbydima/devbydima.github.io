@@ -54,7 +54,10 @@
       }
     },
     {
-      "@type": "MobileApplication",
+      "@type": [
+        "MobileApplication",
+        "VideoGame"
+      ],
       "@id": "https://devbydima.github.io/whatchanged/#app",
       "name": "Whoa, What Changed?",
       "operatingSystem": "Android",
@@ -74,6 +77,18 @@
         "@id": "https://devbydima.github.io/#maker"
       },
       "genre": "Puzzle",
+      "isAccessibleForFree": true,
+      "playMode": "SinglePlayer",
+      "numberOfPlayers": {
+        "@type": "QuantitativeValue",
+        "value": 1
+      },
+      "gamePlatform": "Android",
+      "potentialAction": {
+        "@type": "PlayAction",
+        "name": "Play one room in your browser",
+        "target": "https://devbydima.github.io/whatchanged/#play"
+      },
       "inLanguage": [
         "en",
         "nl",
@@ -249,7 +264,7 @@
 <link rel="preload" as="image" type="image/webp" href="img/game-320.webp" imagesrcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" imagesizes="(min-width: 768px) 210px, 45vw" fetchpriority="high">
 <link rel="preload" href="../fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../css/style.css?v=acbf5859">
+<link rel="stylesheet" href="../css/style.css?v=0300eb1c">
 </head>
 <body>
 
@@ -310,6 +325,8 @@
         <h2 class="mb-2.5 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Play one room, right here</h2>
         <p class="mb-5 max-w-[46ch] text-lg text-soft">Study the kitchen, blink, and tap what changed. No sign-up and nothing to install. Liked it? The app has 7 themes, 139 levels, a daily challenge and a sticker book, and it works offline.</p>
         <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dtry-it">Download on Google Play &rarr;</a>
+        <button type="button" id="share" class="ml-2 mt-3 inline-flex items-center gap-2 rounded-[14px] border border-line bg-surface px-[22px] py-3.5 font-bold text-ink hover:brightness-110 sm:mt-0" data-url="https://devbydima.github.io/whatchanged/?utm_source=share&amp;utm_medium=website-button" data-title="Whoa, What Changed?" data-text="Can you spot what changed? Play a free room in your browser:">Share this game</button>
+        <p id="share-note" class="mt-2 text-sm text-soft" role="status" aria-live="polite"></p>
       </div>
     </div>
   </section>
@@ -421,5 +438,21 @@
   </div>
 </footer>
 
+<script>
+(function () {
+  var b = document.getElementById('share'), n = document.getElementById('share-note');
+  if (!b) return;
+  b.addEventListener('click', function () {
+    var d = b.dataset;
+    if (navigator.share) {
+      navigator.share({ title: d.title, text: d.text, url: d.url }).catch(function () {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(d.text + ' ' + d.url).then(function () { n.textContent = 'Link copied.'; }, function () { n.textContent = d.url; });
+    } else {
+      n.textContent = d.url;
+    }
+  });
+})();
+</script>
 </body>
 </html>
