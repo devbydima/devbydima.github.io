@@ -249,7 +249,7 @@
 <link rel="preload" as="image" type="image/webp" href="img/game-320.webp" imagesrcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" imagesizes="(min-width: 768px) 210px, 45vw" fetchpriority="high">
 <link rel="preload" href="../fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../css/style.css?v=6320a17e">
+<link rel="stylesheet" href="../css/style.css?v=acbf5859">
 </head>
 <body>
 
@@ -262,6 +262,7 @@
       </picture>
     </a>
     <nav class="flex items-center gap-5 text-sm font-semibold" aria-label="Main">
+      <a class="hidden text-soft hover:text-ink sm:inline" href="#play">Try it</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#how">How it plays</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#screens">Screens</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#features">Features</a>
@@ -295,6 +296,20 @@
       <div class="grid max-w-[420px] grid-cols-2 gap-3.5">
         <img class="block h-auto w-full rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="(min-width: 768px) 210px, 45vw" fetchpriority="high" alt="Memorizing a toy room in the game" width="585" height="1266">
         <img class="block h-auto w-full rounded-[18px] border border-line mt-7" src="img/home.webp" srcset="img/home-320.webp 320w, img/home-400.webp 400w, img/home.webp 585w" sizes="(min-width: 768px) 210px, 45vw" alt="The home screen of Whoa, What Changed?" width="585" height="1266">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12" id="play">
+    <div class="mx-auto max-w-[1000px] px-5 grid items-center gap-10 md:grid-cols-[.85fr_1.15fr]">
+      <div class="order-2 md:order-1">
+        <iframe class="mx-auto block h-[clamp(540px,82vh,700px)] w-full max-w-[360px] rounded-[22px] border border-line bg-surface" src="play/" title="Play one room of Whoa, What Changed?" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+      </div>
+      <div class="order-1 min-w-0 md:order-2">
+        <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Try it</span>
+        <h2 class="mb-2.5 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Play one room, right here</h2>
+        <p class="mb-5 max-w-[46ch] text-lg text-soft">Study the kitchen, blink, and tap what changed. No sign-up and nothing to install. Liked it? The app has 7 themes, 139 levels, a daily challenge and a sticker book, and it works offline.</p>
+        <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dtry-it">Download on Google Play &rarr;</a>
       </div>
     </div>
   </section>
