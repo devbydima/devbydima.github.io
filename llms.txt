@@ -1,6 +1,6 @@
 # devbydima
 
-> devbydima is a solo developer making small games and apps for Android. The current release is Whoa, What Changed? (package devbydima.whatchanged), a free, single-player, offline-capable memory game where you spot what changed in a scene.
+> devbydima is a solo developer making small games and apps for Android and iOS. The current release is Whoa, What Changed? (package devbydima.whatchanged), a free, single-player, offline-capable memory game where you spot what changed in a scene.
 
 ## Whoa, What Changed? by devbydima
 
@@ -8,13 +8,13 @@ Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play pa
 
 - [Game page](https://devbydima.github.io/whatchanged/): features, tips, screenshots, FAQ and trailer
 - [Play one room in your browser](https://devbydima.github.io/whatchanged/#play): a free demo room on the game page, no sign-up and nothing to install
-- [Google Play](https://play.google.com/store/apps/details?id=devbydima.whatchanged): install the game on Android
+- Google Play and the App Store: coming soon
 - [Trailer](https://www.youtube.com/watch?v=KbuVq59s0Uo): short trailer on YouTube
 - [Privacy policy](https://devbydima.github.io/whatchanged/privacy-policy/): what the app does and does not collect
 
 ## About the game
 
-- Platform: Android. Free to play, works offline, no account needed. One optional purchase removes full-screen ads.
+- Platform: Android and iOS, both coming soon. Free to play, works offline, no account needed. One optional purchase removes full-screen ads.
 - A round takes 10 to 20 seconds: memorize a scene, blink, then tap what changed. Sometimes nothing changed, and boss rounds have two changes.
 - Five unique themes: Kitchen, Living room, Bedroom, School and Garden.
 - Single-player game: levels, daily challenge, daily goals, Sprint (three quick rounds against the clock), endless mode, hardcore and challenge levels. Switcheroo is an optional extra mode for two players on one phone.

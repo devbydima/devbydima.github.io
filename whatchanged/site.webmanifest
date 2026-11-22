@@ -1,7 +1,7 @@
 {
   "name": "Whoa, What Changed?",
   "short_name": "What Changed?",
-  "description": "A cosy spot-the-difference memory game for Android.",
+  "description": "A cosy spot-the-difference memory game for Android and iOS.",
   "start_url": "/whatchanged/",
   "scope": "/whatchanged/",
   "display": "browser",

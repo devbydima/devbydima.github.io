@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Whoa, What Changed? | Spot-the-difference game by devbydima</title>
-<meta name="description" content="Study a scene, blink, and spot the one small change. A free, single-player memory game for Android that works offline, with five unique themes.">
+<meta name="description" content="Study a scene, blink, and spot the one small change. A free, single-player memory game for Android and iOS that works offline, with five unique themes.">
 <meta name="application-name" content="Whoa, What Changed?">
 <meta name="author" content="devbydima">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -21,12 +21,12 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Whoa, What Changed? memory game for Android">
+<meta property="og:image:alt" content="Whoa, What Changed? memory game for Android and iOS">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Whoa, What Changed? | Spot-the-difference game by devbydima">
 <meta name="twitter:description" content="A cosy spot-the-difference memory game. Study the scene, blink, spot what changed.">
 <meta name="twitter:image" content="https://devbydima.github.io/whatchanged/img/social.png">
-<meta name="twitter:image:alt" content="Whoa, What Changed? memory game for Android">
+<meta name="twitter:image:alt" content="Whoa, What Changed? memory game for Android and iOS">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -60,7 +60,7 @@
       ],
       "@id": "https://devbydima.github.io/whatchanged/#app",
       "name": "Whoa, What Changed?",
-      "operatingSystem": "Android",
+      "operatingSystem": "Android, iOS",
       "applicationCategory": "GameApplication",
       "description": "Study a scene. It disappears. It comes back with one small change. Can you spot it? Made by devbydima. Works offline.",
       "image": [
@@ -83,7 +83,7 @@
         "@type": "QuantitativeValue",
         "value": 1
       },
-      "gamePlatform": "Android",
+      "gamePlatform": ["Android", "iOS"],
       "potentialAction": {
         "@type": "PlayAction",
         "name": "Play one room in your browser",
@@ -130,7 +130,7 @@
       "@type": "VideoObject",
       "@id": "https://devbydima.github.io/whatchanged/#trailer",
       "name": "Whoa, What Changed? trailer",
-      "description": "Trailer for Whoa, What Changed?, a cosy spot-the-difference memory game for Android.",
+      "description": "Trailer for Whoa, What Changed?, a cosy spot-the-difference memory game for Android and iOS.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KbuVq59s0Uo/maxresdefault.jpg",
       "embedUrl": "https://www.youtube.com/embed/KbuVq59s0Uo",
       "contentUrl": "https://www.youtube.com/watch?v=KbuVq59s0Uo"
@@ -144,7 +144,7 @@
           "name": "What is Whoa, What Changed?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A memory game for Android made by devbydima. A scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different."
+            "text": "A memory game for Android and iOS made by devbydima. A scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different."
           }
         },
         {
@@ -213,10 +213,10 @@
         },
         {
           "@type": "Question",
-          "name": "How do I find the right app on Google Play?",
+          "name": "When can I download it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Search for \"Whoa, What Changed? by devbydima\" or open the Google Play link on this page. The package name is devbydima.whatchanged."
+            "text": "Whoa, What Changed? is coming soon to Google Play and the App Store. Until then you can play one room for free on this page. Once it is out, search for \"Whoa, What Changed? by devbydima\"; on Google Play the package name is devbydima.whatchanged."
           }
         },
         {
@@ -272,7 +272,7 @@
 <link rel="preload" as="image" type="image/webp" href="img/game-320.webp" imagesrcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" imagesizes="(min-width: 768px) 210px, 45vw" fetchpriority="high">
 <link rel="preload" href="../fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/jetbrains-mono-latin-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../css/style.css?v=ac745a90">
+<link rel="stylesheet" href="../css/style.css?v=65ecaf0a">
 </head>
 <body>
 
@@ -285,12 +285,11 @@
       </picture>
     </a>
     <nav class="flex items-center gap-5 text-sm font-semibold" aria-label="Main">
-      <a class="hidden text-soft hover:text-ink sm:inline" href="#play">Try it</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#how">How it plays</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#screens">Screens</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#features">Features</a>
       <a class="hidden text-soft hover:text-ink sm:inline" href="#faq">FAQ</a>
-      <a class="rounded-[10px] bg-accent px-3.5 py-[7px] font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dnav">Download</a>
+      <a class="rounded-[10px] bg-accent px-3.5 py-[7px] font-bold text-accent-ink hover:brightness-110" href="#play">Try it</a>
     </nav>
   </div>
 </header>
@@ -302,15 +301,16 @@
         <div class="mb-6 flex items-center gap-4">
           <img class="size-18 flex-none rounded-[22%]" src="img/icon-144.webp" alt="Whoa, What Changed? app icon" width="72" height="72">
           <div>
-            <span class="mb-1 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Android game by devbydima</span>
+            <span class="mb-1 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Android &amp; iOS game by devbydima</span>
             <b class="text-xl font-extrabold tracking-[-0.02em]">Whoa, What Changed?</b>
           </div>
         </div>
         <h1 class="text-[clamp(38px,6.4vw,64px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Study it. Blink. <em class="font-normal text-accent not-italic">Spot</em> what changed.</h1>
-        <p class="my-5 max-w-[46ch] text-lg text-soft"><strong class="font-semibold text-ink">Whoa, What Changed?</strong> is a free single-player memory game for Android that works offline. A scene disappears for a moment and comes back with one small change. Can you find it?</p>
+        <p class="my-5 max-w-[46ch] text-lg text-soft"><strong class="font-semibold text-ink">Whoa, What Changed?</strong> is a free single-player memory game for Android and iOS that works offline. A scene disappears for a moment and comes back with one small change. Can you find it?</p>
         <div class="flex flex-wrap items-center gap-3">
           <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="#play"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>Play a free room now</a>
-          <a class="inline-flex items-center gap-2 rounded-[14px] border border-line px-[22px] py-3.5 font-bold text-ink hover:border-accent" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dhero">Get it on Google Play &rarr;</a>
+          <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="Google Play: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">Google Play</b></span></span>
+          <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="App Store: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">App Store</b></span></span>
           <a class="px-1.5 py-3.5 text-sm font-semibold text-soft underline decoration-line underline-offset-4 hover:text-ink" href="https://www.youtube.com/watch?v=KbuVq59s0Uo" rel="noopener">Watch the trailer</a>
         </div>
         <ul class="mt-6 flex flex-wrap gap-2">
@@ -318,7 +318,7 @@
         </ul>
       </div>
       <div class="grid max-w-[420px] grid-cols-2 gap-3.5">
-        <img class="block h-auto w-full rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="(min-width: 768px) 210px, 45vw" fetchpriority="high" alt="Memorizing a scene in the game" width="585" height="1266">
+        <img class="block h-auto w-full rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="(min-width: 768px) 210px, 45vw" fetchpriority="high" alt="Memorizing a living room in the game" width="585" height="1266">
         <img class="block h-auto w-full rounded-[18px] border border-line mt-7" src="img/home.webp" srcset="img/home-320.webp 320w, img/home-400.webp 400w, img/home.webp 585w" sizes="(min-width: 768px) 210px, 45vw" alt="The home screen of Whoa, What Changed?" width="585" height="1266">
       </div>
     </div>
@@ -333,7 +333,8 @@
         <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">Try it</span>
         <h2 class="mb-2.5 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Play one room, right here</h2>
         <p class="mb-5 max-w-[46ch] text-lg text-soft">Study the kitchen, blink, and tap what changed. No sign-up and nothing to install. Liked it? The app has five unique themes, a daily challenge and a sticker book, and it works offline.</p>
-        <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dtry-it">Download on Google Play &rarr;</a>
+        <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="Google Play: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">Google Play</b></span></span>
+        <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="App Store: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">App Store</b></span></span>
         <button type="button" id="share" class="ml-2 mt-3 inline-flex items-center gap-2 rounded-[14px] border border-line bg-surface px-[22px] py-3.5 font-bold text-ink hover:brightness-110 sm:mt-0" data-url="https://devbydima.github.io/whatchanged/?utm_source=share&amp;utm_medium=website-button" data-title="Whoa, What Changed?" data-text="Can you spot what changed? Play a free room in your browser:">Share this game</button>
         <p id="share-note" class="mt-2 text-sm text-soft" role="status" aria-live="polite"></p>
       </div>
@@ -377,8 +378,8 @@
       <h2 class="mb-2.5 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">See it in action</h2>
       <div class="-mx-0.5 mt-6 flex snap-x snap-proximity gap-3.5 overflow-x-auto px-0.5 pt-1 pb-3.5" tabindex="0" aria-label="Screenshots">
         <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/game.webp" srcset="img/game-320.webp 320w, img/game-400.webp 400w, img/game.webp 585w" sizes="215px" alt="A round of the game" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Memorize the scene</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/campaign.webp" srcset="img/campaign-320.webp 320w, img/campaign-400.webp 400w, img/campaign.webp 585w" sizes="215px" alt="All themes on one screen" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">All themes</figcaption></figure>
-        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/map.webp" srcset="img/map-320.webp 320w, img/map-400.webp 400w, img/map.webp 585w" sizes="215px" alt="The level map" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Levels to unlock</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/campaign.webp" srcset="img/campaign-320.webp 320w, img/campaign-400.webp 400w, img/campaign.webp 585w" sizes="215px" alt="All themes on one screen" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Five unique themes</figcaption></figure>
+        <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/map.webp" srcset="img/map-320.webp 320w, img/map-400.webp 400w, img/map.webp 585w" sizes="215px" alt="The level map of the bedroom" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Levels to unlock</figcaption></figure>
         <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/daily.webp" srcset="img/daily-320.webp 320w, img/daily-400.webp 400w, img/daily.webp 585w" sizes="215px" alt="The daily challenge" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A daily challenge</figcaption></figure>
         <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/modes.webp" srcset="img/modes-320.webp 320w, img/modes-400.webp 400w, img/modes.webp 585w" sizes="215px" alt="Game modes" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">Endless and Switcheroo</figcaption></figure>
         <figure class="m-0 flex-none snap-start"><img class="h-[clamp(300px,52vw,460px)] w-auto rounded-[18px] border border-line" src="img/stickers.webp" srcset="img/stickers-320.webp 320w, img/stickers-400.webp 400w, img/stickers.webp 585w" sizes="215px" alt="The sticker book" width="585" height="1266" loading="lazy"><figcaption class="mt-2.5 text-sm text-soft">A sticker book</figcaption></figure>
@@ -445,7 +446,7 @@
       <span class="mb-2.5 block font-mono text-xs tracking-[0.08em] text-accent uppercase">FAQ</span>
       <h2 class="mb-6 text-[clamp(26px,4vw,36px)] leading-[1.08] font-extrabold tracking-[-0.03em] text-balance">Questions and answers</h2>
       <div class="grid items-start gap-3.5 md:grid-cols-2">
-        <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50" open><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">What is Whoa, What Changed?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">A memory game for Android made by devbydima. A scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different.</p></details>
+        <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50" open><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">What is Whoa, What Changed?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">A memory game for Android and iOS made by devbydima. A scene is shown for a few seconds, disappears for a moment and comes back with one small change. You tap what is different.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">Does it work offline?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Yes. Whoa, What Changed? works offline, so you can play without an internet connection.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">Is Whoa, What Changed? free?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Yes. It is free to play and needs no account. Ads are kept to a minimum, and one optional purchase removes the full-screen ads.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">Which themes are there?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Five unique themes: Kitchen, Living room, Bedroom, School and Garden. Each one is a little harder than the last.</p></details>
@@ -454,7 +455,7 @@
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">What is Sprint mode?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">A short run of three rounds against the clock. Every wrong tap adds 3 seconds to your time, so look first and tap once.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">What if nothing changed?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">That can happen. Sometimes nothing changed, and in boss rounds there are two changes, so check carefully before you tap.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">Which languages does it support?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">English, Nederlands, Deutsch, Español, Français, Português, Italiano and Bahasa Indonesia.</p></details>
-        <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">How do I find the right app on Google Play?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Search for &ldquo;Whoa, What Changed? by devbydima&rdquo; or open the Google Play link on this page. The package name is devbydima.whatchanged.</p></details>
+        <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">When can I download it?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Whoa, What Changed? is coming soon to Google Play and the App Store. Until then you can <a class="underline decoration-accent underline-offset-4" href="#play">play one room for free</a> on this page. Once it is out, search for &ldquo;Whoa, What Changed? by devbydima&rdquo;; on Google Play the package name is devbydima.whatchanged.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">What age is it for?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">Whoa, What Changed? is intended for people aged 13 and over.</p></details>
         <details class="group rounded-[22px] border border-line bg-surface transition open:border-accent/50"><summary class="flex cursor-pointer list-none items-center justify-between gap-4 p-5 text-[17px] leading-snug font-extrabold tracking-[-0.02em] [&::-webkit-details-marker]:hidden">Where is my progress stored?<span class="grid size-8 flex-none place-items-center rounded-full bg-bg text-lg text-accent transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="px-5 pb-5 text-[15px] text-soft">On your own phone. There are no accounts. See the privacy policy for what Google and RevenueCat handle for ads, usage statistics and purchases.</p></details>
       </div>
@@ -474,7 +475,8 @@
           <li>Your progress stays on your phone. We only see anonymous usage statistics, and where the law asks for it, only after you agree. Read the <a class="underline decoration-accent underline-offset-4" href="https://devbydima.github.io/whatchanged/privacy-policy/">privacy policy</a>.</li>
         </ul>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a class="inline-flex items-center gap-2 rounded-[14px] bg-accent px-[22px] py-3.5 font-bold text-accent-ink hover:brightness-110" href="https://play.google.com/store/apps/details?id=devbydima.whatchanged&amp;referrer=utm_source%3Ddevbydima.github.io%26utm_medium%3Dwebsite%26utm_campaign%3Dgame-page%26utm_content%3Dclosing">Download on Google Play &rarr;</a>
+          <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="Google Play: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">Google Play</b></span></span>
+          <span class="inline-flex w-fit cursor-default items-center gap-2.5 rounded-[14px] border border-dashed border-line px-[18px] py-2 text-ink" aria-label="App Store: coming soon"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg><span class="leading-tight"><span class="block font-mono text-[10px] tracking-[0.08em] text-soft uppercase">Coming soon</span><b class="font-bold">App Store</b></span></span>
           <a class="inline-flex items-center gap-2 rounded-[14px] border border-line px-[22px] py-3.5 font-bold text-ink hover:border-accent" href="https://www.youtube.com/watch?v=KbuVq59s0Uo" rel="noopener">Watch the trailer</a>
         </div>
       </div>

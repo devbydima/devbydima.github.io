@@ -1,7 +1,7 @@
 {
   "name": "devbydima",
   "short_name": "devbydima",
-  "description": "Small games and apps for Android, made by one person.",
+  "description": "Small games and apps for Android and iOS, made by one person.",
   "start_url": "/",
   "scope": "/",
   "display": "browser",
