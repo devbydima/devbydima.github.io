@@ -11,6 +11,7 @@ Note: the full name is "Whoa, What Changed? by devbydima" and the Google Play pa
 - Google Play and the App Store: coming soon
 - [Trailer](https://www.youtube.com/watch?v=KbuVq59s0Uo): short trailer on YouTube
 - [Privacy policy](https://devbydima.github.io/whatchanged/privacy-policy/): what the app does and does not collect
+- [Support](https://devbydima.github.io/support/): contact and help (restore purchases, progress, privacy options)
 
 ## About the game
 
